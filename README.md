@@ -46,3 +46,16 @@ CREATE DATABASE chinook;
 USE chinook;
 SOURCE <LOCATION>; --or the name of your SQL file to load the database
 ```
+2. Build the Chain:
+   ![mysql-chains](https://github.com/Aarsh01/chatWithMySQL/assets/95579399/89ff0962-9c5f-4668-bed4-216ac3f715c3)
+
+   a. Firstly to connect database and use the Langchain required pachages and build the chain(provided in the .png), I have shown the steps one by one in .ipynb file. -- can't able to use openai-api-key due to personal problem/error.
+   b. Afterwards, Using the streamlit, I build the Python GUI App, following the same steps. -- Problem solved while using the langchain_groq package.
+
+3. I used the LangChain wrapper of "sqlalchemy" to interact with the database. I also used the langchain package to create a custom chain that allowed me to chat with the database using natural language.
+
+
+
+
+
+
