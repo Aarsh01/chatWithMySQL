@@ -28,3 +28,21 @@ To launch the Streamlit app and interact with the chatbot:
 ```bash
 streamlit run app.py
 ```
+
+## Procedure
+1. First of all, download the "Chinook" database. This is a sample database that represents a digital media store, including tables for artists, albums, media tracks, invoices, and customers. I will use this database to test my chatbot.
+#### Creating a Database
+
+Now, go to your terminal and log in to MySQL using the following command:
+```bash
+mysql -u root -p
+```
+
+Explain
+You will be prompted to enter your password. Once you are logged in, you can create a new database using the following command:
+
+```bash
+CREATE DATABASE chinook;
+USE chinook;
+SOURCE <LOCATION>; --or the name of your SQL file to load the database
+```
