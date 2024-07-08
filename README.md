@@ -1,5 +1,5 @@
 ﻿# MySQL Python Chatbot Mistral AI
-
+Chatbots and natural language interfaces are becoming increasingly important in modern applications. By integrating these capabilities with database access, we can create powerful tools that allow users to interact with data in a more intuitive and conversational way.
 ## Features
 - **Natural Language Processing**: Uses GPT-4 to interpret and respond to user queries in natural language.
 - **SQL Query Generation**: Dynamically generates SQL queries based on the user's natural language input.
