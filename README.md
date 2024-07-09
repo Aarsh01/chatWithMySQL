@@ -53,6 +53,7 @@ SOURCE <LOCATION>; --or the name of your SQL file to load the database
    b. Afterwards, Using the streamlit, I build the Python GUI App, following the same steps. -- Problem solved while using the langchain_groq package.
 
 3. I used the LangChain wrapper of "sqlalchemy" to interact with the database. I also used the langchain package to create a custom chain that allowed me to chat with the database using natural language.
+![chatWithMySQL](https://github.com/Aarsh01/chatWithMySQL/assets/95579399/be751da0-2317-49a1-9d7f-4ba8cc7600f1)
 
 
 
